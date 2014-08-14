@@ -1,0 +1,24 @@
+body {
+    padding-top: 50px;
+}
+
+#hero {
+    background: none repeat scroll 0 0 #3196e5;
+}
+
+.jumbotron {
+    background: url('../images/test.png') no-repeat scroll center bottom transparent;
+    color: #FFFFFF;
+}
+
+.marketing .col-sm-4 {
+    text-align: center;
+}
+
+.featurette-divider {
+    margin: 70px 0;
+}
+
+.featurette2-divider {
+    margin: 10px 0;
+}
