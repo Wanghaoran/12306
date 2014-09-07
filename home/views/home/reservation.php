@@ -428,10 +428,10 @@
                             }
 
                             if(val.queryLeftNewDTO.canWebBuy == 'Y'){
-                                table_str += '<td><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">预定</button></td>';
+                                table_str += '<td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">预定</button></td>';
                             }else{
 //                                table_str += '<td style="color:#999;">' + val.buttonTextInfo + '</td>';
-                                table_str += '<td><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">预定</button></td>';
+                                table_str += '<td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">预定</button></td>';
 
                             }
                             table_str += '</tr>';
@@ -479,8 +479,8 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="submit" class="btn btn-primary" >登录</button>
             </div>
         </div>
     </div>
