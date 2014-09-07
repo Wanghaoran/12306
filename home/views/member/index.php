@@ -47,7 +47,7 @@
         <div role="navigation" id="sidebar" class="col-xs-3 sidebar-offcanvas">
             <div class="list-group">
                     <a class="list-group-item active" href="<?=$this->config->base_url()?>member">首页</a>
-                    <a class="list-group-item" href="__ROOT__/admin.php">首页</a>
+                    <a class="list-group-item" href="#">我的订单</a>
             </div>
         </div>
 
@@ -62,10 +62,7 @@
                     <h3 class="panel-title"><strong><?=$user['account']?></strong> 欢迎回来<span class="pull-right hidden-xs" id="time_now"><?=mdate("%Y年%n月%d日%H时%i分%s秒")?></span></h3>
                 </div>
                 <div class="panel-body">
-                    <ul>
-                        <li>部署 Hyatt 微信管理系统</li>
-                        <li>集成酒店资料管理功能</li>
-                    </ul>
+                    <h1 class="text-center">欢迎光临铁路客户服务中心会员中心</h1>
                 </div>
             </div>
         </div>
