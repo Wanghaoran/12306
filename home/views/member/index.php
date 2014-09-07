@@ -70,7 +70,7 @@
                             <img alt="车票预定" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/yuding.jpg">
                         </a>
                         <div class="media-body">
-                            <h4 class="media-heading">车票预定</h4>
+                            <h4 class="media-heading text-primary">车票预定</h4>
                             12306网站车票预定功能数据全部来自于真实的铁路客户服务中心网站，所有列车数据都是实时，真实，有效的，您可以查看车票信息以及预定车票。<a href="<?=$this->config->base_url()?>reservation">点击进入</a>
                         </div>
                     </div>
