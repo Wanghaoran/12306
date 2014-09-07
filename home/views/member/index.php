@@ -87,7 +87,7 @@
 
                     <div class="media">
                         <a href="#" class="pull-left">
-                            <img alt="最新动态" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/yupiao.jpg">
+                            <img alt="最新动态" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/zuixin.jpg">
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading text-success">最新动态</h4>
