@@ -84,6 +84,17 @@
                             12306网站车票余票功能数据全部来自于真实的铁路客户服务中心网站，您可以查询当前实时的车票剩余情况，并且不需要登录。<a href="<?=$this->config->base_url()?>lefttickets" class="text-warning">点击进入</a>
                         </div>
                     </div>
+
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                            <img alt="最新动态" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/yupiao.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading text-success">最新动态</h4>
+                            铁路客户服务中心网站的最新新闻和通知都会在此显示，建议您经常查看。<a href="<?=$this->config->base_url()?>newslist" class="text-success">点击进入</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
