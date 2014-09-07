@@ -54,7 +54,8 @@
         <div class="col-xs-9">
 
             <ol class="breadcrumb">
-                <li class="active">会员中心</li>
+                <li><a href="<?=$this->config->base_url()?>member">会员中心</a></li>
+                <li class="active">首页</li>
             </ol>
 
             <div class="panel panel-default">
