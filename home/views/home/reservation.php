@@ -430,8 +430,8 @@
                             if(val.queryLeftNewDTO.canWebBuy == 'Y'){
                                 table_str += '<td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">预定</button></td>';
                             }else{
-//                                table_str += '<td style="color:#999;">' + val.buttonTextInfo + '</td>';
-                                table_str += '<td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">预定</button></td>';
+                                table_str += '<td style="color:#999;">' + val.buttonTextInfo + '</td>';
+//                                table_str += '<td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">预定</button></td>';
 
                             }
                             table_str += '</tr>';
