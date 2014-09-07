@@ -110,8 +110,8 @@
                             <img alt="最新动态" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/zuixin.jpg">
                         </a>
                         <div class="media-body">
-                            <h4 class="media-heading text-default">常见问题</h4>
-                            铁路客户服务中心网站的最新新闻和通知都会在此显示，建议您经常查看。<a href="<?=$this->config->base_url()?>newslist" class="text-success">点击进入</a>
+                            <h4 class="media-heading text-info">常见问题</h4>
+                            如果您在购票过程中遇到问题，建议了根据您所遇到的问题，在帮助中心寻找答案。<a href="<?=$this->config->base_url()?>question" class="text-info">点击进入</a>
                         </div>
                     </div>
 
