@@ -169,6 +169,7 @@ class Common extends CI_Controller {
             $result['state'] = 'success';
         }
         $json_arr = json_decode($output, true);
+        var_dump($json_arr);
         $result['data'] = $json_arr['data'];
         echo json_encode($result);
     }

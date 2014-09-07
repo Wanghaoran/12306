@@ -485,7 +485,7 @@
 </div>
 
 <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    Launch demo modal
+    点击登录
 </button>
 
 <?=$this->load->view('public/header');?>
