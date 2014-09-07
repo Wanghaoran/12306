@@ -146,7 +146,13 @@ class Common extends CI_Controller {
         $end_name = $this -> input -> post('end_name');
         $purpose = $this -> input -> post('purpose');
 
-        $url = 'https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date=' . $date . '&leftTicketDTO.from_station=' . $start_name . '&leftTicketDTO.to_station=' . $end_name . '&purpose_codes=' . $purpose;
+        /*
+         *
+         * https://kyfw.12306.cn/otn/leftTicket/queryT?leftTicketDTO.train_date=2014-09-08&leftTicketDTO.from_station=BJP&leftTicketDTO.to_station=CQW&purpose_codes=ADULT
+         *
+         */
+
+        $url = 'https://kyfw.12306.cn/otn/leftTicket/queryT?leftTicketDTO.train_date=' . $date . '&leftTicketDTO.from_station=' . $start_name . '&leftTicketDTO.to_station=' . $end_name . '&purpose_codes=' . $purpose;
         $header = array(
             'Host: kyfw.12306.cn',
             'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0',
@@ -169,7 +175,7 @@ class Common extends CI_Controller {
             $result['state'] = 'success';
         }
         $json_arr = json_decode($output, true);
-        var_dump($json_arr);
+//        var_dump($json_arr);
         $result['data'] = $json_arr['data'];
         echo json_encode($result);
     }
