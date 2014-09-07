@@ -428,9 +428,11 @@
                             }
 
                             if(val.queryLeftNewDTO.canWebBuy == 'Y'){
-                                table_str += '<td><button type="button" class="btn btn-primary">预定</button></td>';
+                                table_str += '<td><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">预定</button></td>';
                             }else{
-                                table_str += '<td style="color:#999;">' + val.buttonTextInfo + '</td>';
+//                                table_str += '<td style="color:#999;">' + val.buttonTextInfo + '</td>';
+                                table_str += '<td><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">预定</button></td>';
+
                             }
                             table_str += '</tr>';
                         });
@@ -483,10 +485,6 @@
         </div>
     </div>
 </div>
-
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    点击登录
-</button>
 
 <?=$this->load->view('public/header');?>
 
