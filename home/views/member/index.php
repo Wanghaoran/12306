@@ -107,7 +107,7 @@
 
                     <div class="media">
                         <a href="#" class="pull-left">
-                            <img alt="最新动态" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/zuixin.jpg">
+                            <img alt="最新动态" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/wenti.jpg">
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading text-info">常见问题</h4>
