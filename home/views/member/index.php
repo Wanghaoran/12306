@@ -87,7 +87,7 @@
 
                     <div class="media">
                         <a href="#" class="pull-left">
-                            <img alt="代售点查询" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/zuixin.jpg">
+                            <img alt="代售点查询" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/daishou.jpg">
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading text-danger">代售点查询</h4>
