@@ -63,6 +63,7 @@
                 </div>
                 <div class="panel-body">
                     <h1 class="text-center">欢迎光临铁路客户服务中心会员中心</h1>
+                    <hr>
                 </div>
             </div>
         </div>
