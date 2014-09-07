@@ -87,6 +87,16 @@
 
                     <div class="media">
                         <a href="#" class="pull-left">
+                            <img alt="代售点查询" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/zuixin.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading text-danger">代售点查询</h4>
+                            代售点查询功能可以查看您所在城市的所有代售点，如果您的浏览器支持HTML5，您甚至可以立即查看您身边的代售点。由于裁判所用浏览器情况未知，所以此功能暂不提供
+                        </div>
+                    </div>
+
+                    <div class="media">
+                        <a href="#" class="pull-left">
                             <img alt="最新动态" class="media-object" style="width: 64px; height: 64px;" src="<?=$this->config->item('static_path')?>/images/zuixin.jpg">
                         </a>
                         <div class="media-body">
