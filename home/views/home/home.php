@@ -55,7 +55,7 @@
             <img style="width: 140px; height: 140px;" alt="代售点查询" src="<?=$this->config->item('static_path')?>/images/home_booking.png" class="hidden-xs">
             <h2>代售点查询</h2>
             <p style="margin: 25px 0;">中国铁路客户服务中心可以查询全国各地区/区县的铁路售票代售点，包含代售点名称，地址，营业时间，窗口数量，和地点地图。您可以在此方便的查询您身边的火车代售点，完成购票、改签、换取纸质车票、退票等业务</p>
-            <p><a role="button" href="#" class="btn btn-success btn-lg btn-block">查询代售点 »</a></p>
+            <p><a role="button" href="javascript:alert('暂未开放!');" class="btn btn-success btn-lg btn-block">查询代售点 »</a></p>
         </div>
     </div>
 
