@@ -64,7 +64,7 @@
                 <div class="panel-body">
                     <h1 class="text-center">欢迎光临铁路客户服务中心会员中心</h1>
 
-                    <hr style="margin:10px 0;">
+                    <hr style="margin:30px 0;">
 
                     <div class="media">
                         <a href="#" class="pull-left">
