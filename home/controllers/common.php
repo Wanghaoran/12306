@@ -152,7 +152,7 @@ class Common extends CI_Controller {
          *
          */
 
-        $url = 'https://kyfw.12306.cn/otn/leftTicket/queryT?leftTicketDTO.train_date=' . $date . '&leftTicketDTO.from_station=' . $start_name . '&leftTicketDTO.to_station=' . $end_name . '&purpose_codes=' . $purpose;
+        $url = 'https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date=' . $date . '&leftTicketDTO.from_station=' . $start_name . '&leftTicketDTO.to_station=' . $end_name . '&purpose_codes=' . $purpose;
         $header = array(
             'Host: kyfw.12306.cn',
             'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0',
